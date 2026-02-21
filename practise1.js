@@ -53,21 +53,67 @@
 
 // loops
 
-for (let i = 1; i <= 5; i++) {
-  console.log(i);
+// for (let i = 1; i <= 5; i++) {
+//   console.log(i);
+// }
+
+
+// // while loop
+
+// let i = 1;
+
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
+
+
+
+
+//Datatypes
+
+let isStudent = true;
+let city = null;
+let marks;
+
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof isStudent);
+console.log(typeof city);
+console.log(typeof marks);
+
+
+// Operators
+
+let a = 10;
+let b = 3;
+
+console.log(a + b);
+console.log(a % b);
+console.log(a > b);
+console.log(a === b);
+
+
+
+
+// Condition
+
+// let number = 7;
+
+// if (number % 2 === 0) {
+//   console.log("Even");
+// } else {
+//   console.log("Odd");
+// }
+
+
+
+// loop practise 
+
+let number = 7;
+
+if (number % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
 }
-
-
-// while loop
-
-let i = 1;
-
-while (i <= 5) {
-  console.log(i);
-  i++;
-}
-
-
-
-
-
