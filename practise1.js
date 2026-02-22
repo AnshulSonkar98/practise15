@@ -72,26 +72,26 @@
 
 //Datatypes
 
-let isStudent = true;
-let city = null;
-let marks;
+// let isStudent = true;
+// let city = null;
+// let marks;
 
-console.log(typeof name);
-console.log(typeof age);
-console.log(typeof isStudent);
-console.log(typeof city);
-console.log(typeof marks);
+// console.log(typeof name);
+// console.log(typeof age);
+// console.log(typeof isStudent);
+// console.log(typeof city);
+// console.log(typeof marks);
 
 
 // Operators
 
-let a = 10;
-let b = 3;
+// let a = 10;
+// let b = 3;
 
-console.log(a + b);
-console.log(a % b);
-console.log(a > b);
-console.log(a === b);
+// console.log(a + b);
+// console.log(a % b);
+// console.log(a > b);
+// console.log(a === b);
 
 
 
@@ -108,12 +108,42 @@ console.log(a === b);
 
 
 
+
+
 // loop practise 
 
-let number = 7;
 
-if (number % 2 === 0) {
-  console.log("Even");
+// let number = 7;
+
+// if (number % 2 === 0) {
+//   console.log("Even");
+// } else {
+//   console.log("Odd");
+// }
+
+
+
+
+// simple age calculator
+
+let currentYear = 2026;
+let age = currentYear - birthYear;
+
+console.log("Your age is:", age);
+
+
+
+
+// grade checker
+
+let marks = 82;
+
+if (marks >= 90) {
+  console.log("Grade A");
+} else if (marks >= 75) {
+  console.log("Grade B");
+} else if (marks >= 50) {
+  console.log("Grade C");
 } else {
-  console.log("Odd");
+  console.log("Fail");
 }
