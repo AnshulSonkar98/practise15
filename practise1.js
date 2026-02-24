@@ -177,7 +177,6 @@ greet();
 
 
 // function with parameter
-
 // function greet(name) {
 //   console.log("Hello " + name);
 // }
@@ -186,25 +185,80 @@ greet();
 // greet("Rahul");
 
 
-// function with return value
 
+
+// function with return value
 // function add(a, b) {
 //   return a + b;
 // }
-
 // let result = add(5, 3);
 // console.log("Sum is:", result);
 
 
+
+
 // practise ques
 
-function checkEvenOdd(number) {
-  if (number % 2 === 0) {
-    return "Even";
-  } else {
-    return "Odd";
-  }
+// function checkEvenOdd(number) {
+//   if (number % 2 === 0) {
+//     return "Even";
+//   } else {
+//     return "Odd";
+//   }
+// }
+
+// console.log(checkEvenOdd(10));
+// console.log(checkEvenOdd(7));
+
+
+
+
+// ARRAYS 
+// let fruits = ["Apple", "Banana", "Mango"];
+
+// console.log(fruits[0]);
+// console.log(fruits[2]); 
+
+
+
+
+//  Array modifiying
+let marks = [70, 80, 90];
+
+marks[1] = 85;
+
+console.log(marks);
+
+
+
+
+//  Array methods
+// let numbers = [1, 2, 3];
+
+// numbers.push(4);
+
+// console.log(numbers);
+
+
+// // Pop
+// numbers.pop();
+// console.log(numbers);
+
+
+// loop through Array
+// let numbers = [10, 20, 30, 40];
+
+// for (let i = 0; i < numbers.length; i++) {
+//   console.log(numbers[i]);
+// }
+
+
+// Real example
+let numbers = [5, 10, 15];
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
 }
 
-console.log(checkEvenOdd(10));
-console.log(checkEvenOdd(7));
+console.log("Total Sum:", sum);
