@@ -254,11 +254,51 @@ console.log(marks);
 
 
 // Real example
-let numbers = [5, 10, 15];
-let sum = 0;
+// let numbers = [5, 10, 15];
+// let sum = 0;
 
-for (let i = 0; i < numbers.length; i++) {
-  sum += numbers[i];
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+
+// console.log("Total Sum:", sum); 
+
+
+
+
+// Object
+
+// let student = {
+//   name: "Anshu",
+//   age: 20,
+//   branch: "CSE"
+// };
+
+// console.log(student);
+
+
+
+
+// object + function
+// let person = {
+//   name: "Anshu",
+//   greet: function () {
+//     console.log("Hello " + this.name);
+//   }
+// };
+
+// person.greet();
+
+
+
+
+// Arrays of object 
+let students = [
+  { name: "Anshu", marks: 80 },
+  { name: "Rahul", marks: 75 },
+  { name: "Priya", marks: 90 }
+];
+
+for (let i = 0; i < students.length; i++) {
+  console.log(students[i].name, students[i].marks);
 }
-
-console.log("Total Sum:", sum);
