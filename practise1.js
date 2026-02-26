@@ -293,12 +293,12 @@ console.log(marks);
 
 
 // Arrays of object 
-let students = [
-  { name: "Anshu", marks: 80 },
-  { name: "Rahul", marks: 75 },
-  { name: "Priya", marks: 90 }
-];
+// let students = [
+//   { name: "Anshu", marks: 80 },
+//   { name: "Rahul", marks: 75 },
+//   { name: "Priya", marks: 90 }
+// ];
 
-for (let i = 0; i < students.length; i++) {
-  console.log(students[i].name, students[i].marks);
-}
+// for (let i = 0; i < students.length; i++) {
+//   console.log(students[i].name, students[i].marks);
+// } 
