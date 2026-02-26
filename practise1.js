@@ -302,3 +302,54 @@ console.log(marks);
 // for (let i = 0; i < students.length; i++) {
 //   console.log(students[i].name, students[i].marks);
 // } 
+
+
+
+
+// //Global Scope
+// let name = "Anshu";
+
+// function greet() {
+//   console.log(name);
+// }
+
+// greet();
+
+
+
+
+// Block scope
+if (true) {
+  let age = 20;
+  console.log(age);
+}
+
+console.log(age);
+
+
+
+
+// // var pblm
+// if (true) {
+//   var city = "Bhopal";
+// }
+
+// console.log(city); 
+
+
+
+
+// for (let i = 0; i < 3; i++) {
+//   console.log(i);
+// }
+
+// console.log(i); 
+
+
+
+
+// for (var j = 0; j < 3; j++) {
+//   console.log(j);
+// }
+
+// console.log(j); // 3
