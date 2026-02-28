@@ -353,3 +353,67 @@ console.log(age);
 // }
 
 // console.log(j); // 3
+
+
+
+
+//  for (var j = 0; j < 4; j++){
+//   console.log(j);
+//   }
+
+// console.log(j);
+
+
+
+
+// // Arrow function 
+// function add(a, b) {
+//   return a + b;
+// }
+
+// console.log(add(2, 3));
+
+
+
+
+// // Arrow function
+// const add = (a, b) => {
+//   return a + b;
+// };
+
+
+
+// // short arrow
+// console.log(add(2, 3));
+
+
+// const multiply = (a, b) => a * b;
+
+// console.log(multiply(4, 5));
+
+
+
+
+// // single parameter
+// const square = num => num * num;
+
+// console.log(square(6));
+
+
+
+
+// // no parameter function
+// const greet = () => {
+//   console.log("Hello Anshu");
+// };
+
+// greet();
+
+
+
+// Arriw funtion with array
+// let numbers = [1, 2, 3, 4];
+
+// numbers.forEach(num => {
+//   console.log(num);
+// });
