@@ -500,3 +500,45 @@ console.log(age);
 // };
 
 // console.log(updatedStudent);
+
+
+
+// Day 13 JS
+// Basic Async Example
+// console.log("Start");
+
+// setTimeout(() => {
+//   console.log("Inside Timeout");
+// }, 2000);
+
+// console.log("End");
+
+
+
+
+// callabck concept
+// function greet(name, callback) {
+//   console.log("Hello " + name);
+//   callback();
+// }
+
+// function sayBye() {
+//   console.log("Goodbye!");
+// }
+
+// greet("Anshu", sayBye);
+
+
+
+
+// callback setTimeout 
+function greet(name, callback) {
+  console.log("Hello " + name);
+  callback();
+}
+
+function sayBye() {
+  console.log("Goodbye!");
+}
+
+greet("Anshu", sayBye);
