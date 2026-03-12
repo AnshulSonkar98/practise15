@@ -17,13 +17,31 @@
 
 
 
-let title = document.getElementById("title");
-let button = document.getElementById("toggleBtn");
+// let title = document.getElementById("title");
+// let button = document.getElementById("toggleBtn");
 
-button.addEventListener("click", function () {
-  title.classList.toggle("highlight");
+// button.addEventListener("click", function () {
+//   title.classList.toggle("highlight");
+// });
+
+
+
+
+let form = document.getElementById("myForm");
+let username = document.getElementById("username");
+let message = document.getElementById("message");
+
+form.addEventListener("submit", function(event) {
+
+  event.preventDefault(); // page reload stop
+
+  if (username.value === "") {
+    message.textContent = "Username cannot be empty";
+  } else {
+    message.textContent = "Form submitted successfully";
+  }
+
 });
-
 
 
 
